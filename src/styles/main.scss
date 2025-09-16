@@ -73,7 +73,7 @@ $start-days: (
   }
 }
 
-@for $days from 28 through 30 {
+@for $days from 28 through 31 {
   .calendar--month-length-#{$days} .calendar__day:nth-child(n + #{$days + 1}) {
     display: none;
   }
